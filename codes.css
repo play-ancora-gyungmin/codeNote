@@ -1,0 +1,81 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.wrap {
+    position: relative;
+    width: 87%;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 4px 4px 7px hsla(0, 0%, 40%, 0.55);
+}
+
+.conts {}
+
+.conts > div {
+    width: 49%;
+    padding: 15px;
+    float: left;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin: .5%;
+    box-shadow: 4px 4px 7px hsla(0, 0%, 40%, 0.55);
+}
+
+.conts > div > h2 {
+    text-align: center;
+    padding: 10px;
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+.contIn {
+    width: 95%;
+    height: auto;
+    margin: 7px auto;
+    padding: 7px;
+    background-color: hsl(210, 65%, 95%);
+    box-shadow: 4px 4px 7px hsla(0, 0%, 40%, 0.55);
+}
+
+.contIn h3 {
+    margin: 2px;
+    padding: 0;
+}
+
+.contIn > p {
+    margin: 8px;
+    padding: 0;
+}
+
+.contIn > ul,
+.contIn > dl {
+    margin: 8px;
+    margin-left: 23px;
+    padding: 0;
+}
+
+.contIn > dl > dd {
+    margin-left: 20px;
+}
+
+.conts a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.conts a:hover {
+    color: dodgerblue;
+    text-decoration: underline;
+}
